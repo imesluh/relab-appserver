@@ -1,0 +1,47 @@
+[
+    {
+      "question": "Frage (1/5): <br> Gegeben seien die analytische Jacobi-Matrix \\(\\boldsymbol{J}\\) sowie geometrische Jacobi-Matrix \\(\\boldsymbol{J}_\\text{g}\\) eines seriellen Roboters bezüglich einer sechsdimensionalen Aufgabe \\(\\boldsymbol{x}_\\text{E}\\).",
+      "answers":
+        [{"answer": "Die Anzahl an Spalten der Matrizen ist die Anzahl an Roboterachsen und ist für beide Matrizen identisch","truth": true},
+        {"answer": "Die Anzahl an Zeilen der Matrizen ist die Anzahl an Roboterachsen und ist für beide Matrizen identisch","truth": false},
+        {"answer": "Die Anzahl an Zeilen der Matrizen ist die Anzahl an betrachteten Endeffektorfreiheitsgraden und ist für beide Matrizen identisch","truth": true},
+        {"answer": "Die Anzahl an Spalten der Matrizen ist die Anzahl an betrachteten Endeffektorfreiheitsgraden und ist für beide Matrizen identisch","truth": false},
+        {"answer": "\\(\\boldsymbol{J}\\) ist bezüglich des Basiskoordinatensystems definiert, wo hingegen \\(\\boldsymbol{J}_\\text{g}\\) von der gewählten Winkelrepräsentation abhängig ist","truth": false}]
+    },
+    {
+      "question": "Frage (2/5): ",
+      "answers":
+        [{"answer": "Am Endeffektor angreifende Kräfte werden durch die adjungierte Jacobi-Matrix in den Gelenkraum abgebildet","truth": false},
+        {"answer": "Die Eigenvektoren der Gelenksteifigkeitsmatrix \\(\\boldsymbol{K}=\\text{diag}(k_1,...,k_n)\\) mit Gelenksteifigkeiten \\(k_i\\) beschreiben die  Hauptrichtungen der Nachgiebigkeit eines Roboters","truth": false},
+        {"answer": "Die Manipulierbarkeit ist ein Leistungsmerkmal zur Einschätzung, ob eine Singularität vorliegt","truth": true},
+        {"answer": "Durch Singularitäten kommt es zum Verlust von Freiheitsgraden am Endeffektor, zu hohen Gelenkwinkelgeschwindigkeiten sowie zu sehr hohen Steifigkeiten in einzelnen Raumrichtungen","truth": true},
+        {"answer": "Singularitäten sind zu durchfahren, da aufgrund der hohen Gelenkwinkelgeschwindigkeiten folglich hohe Endeffektorgeschwindigkeiten resultieren und die Ziellage schnell erreicht wird","truth": false}]
+    },
+    {
+      "question": "Frage (3/5): <br> Gegeben sei ein redundanter Roboter mit Gelenkwinkel \\(\\boldsymbol{q}\\) und Endeffektorfreiheitsgrade \\(\\boldsymbol{x}_\\text{E}\\).",
+      "answers":
+        [{"answer": "\\(\\text{dim}(\\boldsymbol{q})=7\\) gilt für alle redundanten Roboter","truth": false},
+        {"answer": "\\(\\text{dim}(\\boldsymbol{q})=3\\) kann für den Roboter gelten","truth": true},
+        {"answer": "Die Jacobi-Matrix kann quadratisch sein","truth": false},
+        {"answer": "\\(\\text{dim}(\\boldsymbol{q})>\\text{dim}(\\boldsymbol{x}_\\text{E})\\) gilt für alle redundanten Roboter","truth": true},
+        {"answer": "Die inverse Jacobi-Matrix existiert nicht, sodass die Pseudo-Inverse verwendet werden kann, welche die Gelenkwinkelgeschwindigkeiten minimiert","truth": true}]
+    },
+    {
+      "question": "Frage (4/5):",
+      "answers":
+        [{"answer": "Weg, Bahn und Trajektorie sind Synonyme","truth": false},
+        {"answer": "Bahnplanung ist sowohl im Gelenkraum als auch im Zustandsraum möglich","truth": false},
+        {"answer": "Die normierte Bahnkoordinate ermöglicht die getrennte Betrachtung von Weg und Zeit.","truth": true},
+        {"answer": "Die Synchronisation auf die langsamste Gelenkbewegung spart Energie ein","truth": true},
+        {"answer": "Weg und Trajektorie sind Synonyme","truth": false}]
+    },
+    {
+      "question": "Frage (5/5):",
+      "answers":
+        [{"answer": "Ein Geschwindigkeitstrapezprofil weist einen differenzierbaren Geschwindkeitsverlauf auf","truth": false},
+        {"answer": "Ein Geschwindigkeitstrapezprofil ist eine ruckfreie Trajektorie","truth": false},
+        {"answer": "Ein Beschleunigungstrapezprofil weist einen differenzierbaren Geschwindkeitsverlauf auf","truth": true},
+        {"answer": "Ein Beschleunigungstrapezprofil ist eine stoßfreie Trajektorie","truth": true},
+        {"answer": "Beim Geschwindigkeitstrapezprofil müssen deutlich weniger Polynomkoeffizienten bestimmt werden als beim Beschleunigungstrapezprofil","truth": true}]
+    }
+  ]

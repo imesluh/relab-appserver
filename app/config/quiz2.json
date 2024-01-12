@@ -1,0 +1,47 @@
+[
+    {
+      "question": "Frage (1/5):",
+      "answers":
+        [{"answer": "Die Kinematik beschreibt den Zusammenhang zwischen Jointspace (Gelenkwinkel) und Taskspace (Minimalkoordinaten)","truth": false},
+        {"answer": "Die direkte Kinematik serieller Roboter ist eindeutig lösbar bei gegebener Orientierungsdarstellung","truth": true},
+        {"answer": "Die inverse Kinematik serieller Roboter ist eindeutig lösbar bei gegebener Orientierungsdarstellung","truth": false},
+        {"answer": "Die Matrix \\( ^0\\boldsymbol{T}_\\text{3} = \\ ^0\\boldsymbol{T}_\\text{1}^1\\boldsymbol{T}_\\text{2}^2\\boldsymbol{T}_\\text{3}\\) beschreibt die Lage vom dritten Robotersegment im \\( \\text{(KS)}_\\text{0} \\)","truth": true},
+        {"answer": "Mit einem räumlichen RRR-Roboter kann man Position und Orientierung unabhängig voneinander einstellen","truth": false}]
+    },
+    {
+      "question": "Frage (2/5): <br> Gegeben seien die DH-Parameter \\( \\boldsymbol{\\theta},\\boldsymbol{d},\\boldsymbol{a},\\boldsymbol{\\alpha} \\) eines beliebigen seriellen Roboters mit Gelenkwinkel \\( \\boldsymbol{q} \\)",
+      "answers":
+        [{"answer": "\\( \\text{dim}(\\boldsymbol{\\alpha})=\\text{dim}(\\boldsymbol{\\theta})=\\text{dim}(\\boldsymbol{q}) \\)","truth": true},
+        {"answer": "\\( \\boldsymbol{\\theta}=\\boldsymbol{q} \\)","truth": false},
+        {"answer": "Die Lage von jedem Segment lässt sich mit den gegebenen Informationen berechnen","truth": true},
+        {"answer": "Die DH-Matrix \\( \\boldsymbol{A}_\\text{3}\\) beschreibt die Lage vom dritten Robotersegment im \\( \\text{(KS)}_\\text{0} \\)","truth": false},
+        {"answer": "Die Richtungen der Achsen \\( \\boldsymbol{y}_i\\) können aus den DH-Parametern nicht bestimmt werden ","truth": false}]
+    },
+    {
+      "question": "Frage (3/5): <br> Ein robotisches System (3D-Drucker) bestehe aus drei Linearantrieben zum Verfahren des Endeffektors (Extruder) im dreidimensionalen Raum",
+      "answers":
+        [{"answer": "Es handelt sich um einen PRR-Roboter","truth": false},
+        {"answer": "Es handelt sich um einen PPP-Roboter","truth": true},
+        {"answer": "Die Schubgelenke \\(\\boldsymbol{q}\\) sind im DH-Parameter \\(\\boldsymbol{d}\\) enthalten","truth": true},
+        {"answer": "Die Orientierung des Extruders ist veränderlich und wird mittels \\( \\text{arctan2} \\) berechnet","truth": false},
+        {"answer": "Zwei DH-Matrizen beschreiben die Kinematik des 3D-Druckers eindeutig","truth": false}]
+    },
+    {
+      "question": "Frage (4/5): <br> Gegeben sei ein planarer RR-Roboter. \\( _\\mathrm{(0)}x_\\mathrm{E}  \\) sei die einzige betrachtete Arbeitsraumkoordinate.",
+      "answers":
+        [{"answer": "Die inverse Kinematik ist im Allgemeinen bis auf Symmetrien eindeutig lösbar","truth": false},
+        {"answer": "Die direkte Kinematik ist eine skalare Funktion","truth": true},
+        {"answer": "Die inverse Kinematik ist eine skalare Funktion","truth": false},
+        {"answer": "Bei zusätzlicher Betrachtung der Endeffektororientierung als Arbeitsraumkoordinate sind inverse und direkte Kinematik zweidimensionale Funktionen","truth": true},
+        {"answer": "Bei zusätzlicher Betrachtung der Endeffektororientierung als Arbeitsraumkoordinate ist die inverse Kinematik eine dreidimensionale Funktion","truth": false}]
+    },
+    {
+      "question": "Frage (5/5):",
+      "answers":
+        [{"answer": "Alle Additionstheoreme müssen für die Klausur auswendig gelernt werden","truth": false},
+        {"answer": "Die Position des Endeffektors wird mittels \\( \\text{arctan2} \\) aus \\( ^\\mathrm{0}\\boldsymbol{T}_\\mathrm{E} \\) bestimmt","truth": false},
+        {"answer": "Je nach Orientierungsdarstellung verändern sich die Einträge von \\( ^\\mathrm{0}\\boldsymbol{T}_\\mathrm{E} \\)","truth": false},
+        {"answer": "Die inverse Kinematik kann mittels Nullstellensuche gelöst werden","truth": true},
+        {"answer": "Aufgrund der Einfachheit von der geometrischen Ermittlung der inversen Kinematik ist dieses Verfahren besonders für Roboter mit vielen Antrieben geeignet","truth": false}]
+    }
+  ]

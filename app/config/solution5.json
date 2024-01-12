@@ -1,0 +1,45 @@
+[{
+	"header": "Evaluationsbogen zum Remote Laboratory (ReLab) am imes",
+	"quests":
+	[{
+		"id": "1",
+		"range": 5,
+		"type": "rating",
+		"required": true
+	},
+	{
+		"text": "Die Verbindung zum Prüfstand und der Zugang über VPN waren stabil und zuverlässig.",
+		"id": "2",
+		"range": 5,
+		"type": "rating",
+		"required": true
+	},
+	{
+		"text": "Die ReLab-Oberfläche ist benutzerfreundlich. Ich konnte mich schnell auf der Website orientieren, sowie die Bedienung einfach verstehen.",
+		"id": "3",
+		"range": 5,
+		"type": "rating",
+		"required": true
+	},
+	{
+		"text": "Ich konnte durch das ReLab die Vorlesungsinhalte besser verstehen.",
+		"id": "4",
+		"range": 5,
+		"type": "rating",
+		"required": true
+	},
+	{
+		"text": "Das ReLab motivierte mich zum Auseinandersetzen mit den Vorlesungsinhalten.",
+		"id": "5",
+		"range": 5,
+		"type": "rating",
+		"required": true
+	},
+	{
+		"text": "Besondere Anmerkungen/Kritik/Wünsche:",
+		"id": "6",
+		"range": "0",
+		"type": "text",
+		"required": false
+	}]
+}]

@@ -1,0 +1,47 @@
+[
+    {
+      "question": "Frage (1/5):",
+      "answers":
+        [{"answer": "Zur Simulation eines Roboters eignet sich die direkte Dynamik. Hingegen wird die inverse Dynamik in der modellbasierten Regelung verwendet","truth": true},
+        {"answer": "Die Dynamikmodellierung eines Roboters mit sechs Antrieben nach Newton-Euler ist nicht zeitaufwendig und geeignet als Klausuraufgabe","truth": false},
+        {"answer": "Die Newton-Euler Methode und Lagrange'sche Methode liefern bei identischen Annahmen äquivalente Bewegungsgleichungen","truth": true},
+        {"answer": "Die Dynamikmodellierung eines Roboters mit sechs Antrieben nach Lagrange ist nicht zeitaufwendig und geeignet als Klausuraufgabe","truth": false},
+        {"answer": "Es liegt entweder Coulomb'sche Reibung oder viskose Reibung vor","truth": false}]
+    },
+    {
+      "question": "Frage (2/5): ",
+      "answers":
+        [{"answer": "Bei exaktem Modell der inversen Dynamik liefert ein offener Regelkreis ein hochgenaues Verfahren des Roboters. In der Realität ist daher nie eine Roboterregelung erforderlich","truth": false},
+        {"answer": "Durch Rückführung des Positionsfehlers und Roboterregelung werden Modellungenauigkeiten und somit ungünstige Antriebsmomente der Vorsteuerung kompensiert","truth": true},
+        {"answer": "Die Modellierung parasitärer Effekte erhöht die Genauigkeit das Dynamikmodells und somit die Performanz einer modellbasierten Vorsteuerung","truth": true},
+        {"answer": "Modellvereinfachungen wie starre Roboterglieder, spielfreie Gelenke oder Vernachlässigung der Reibung erhöhen die Performanz der Momentenvorsteuerung","truth": false},
+        {"answer": "PID-Regler erfordern viel Rechenzeit und sind demnach zur Roboterregelung ungeeignet","truth": false}]
+    },
+    {
+      "question": "Frage (3/5): <br> Gegeben sei ein redundanter Roboter mit sechs rotatorischen Antrieben und drei translatorischen Endeffektorfreiheitsgraden.",
+      "answers":
+        [{"answer": "Die Massenmatrix ist quadratisch","truth": true},
+        {"answer": "Die Jacobi-Matrix ist quadratisch","truth": false},
+        {"answer": "\\(\\text{dim}(\\boldsymbol{\\tau})=3\\)","truth": false},
+        {"answer": "\\(\\text{dim}(\\boldsymbol{\\tau})=6\\)","truth": true},
+        {"answer": "Es können lediglich Kräfte am Endeffektor angreifen. Die Dimension des verallgemeinerter Kraftangriffsvektor ist demnach drei","truth": false}]
+    },
+    {
+      "question": "Frage (4/5):",
+      "answers":
+        [{"answer": "Bei der Impedanzregelung agiert der Roboter im Kontaktfall wie eine Hooke'sche Feder","truth": false},
+        {"answer": "Bei der Impedanzregelung agiert der Roboter im Kontaktfall wie ein mechanisches System bestehend aus Masse, Feder und Dämpfer","truth": true},
+        {"answer": "Bei der aktiven Steifigkeitsregelung kann eine gewünschte Solldynamik bei externem Kontakt vorgegeben werden","truth": false},
+        {"answer": "Bei der Impedanzregelung können explizit Sollkontaktkräfte vorgegeben werden","truth": false},
+        {"answer": "Bei der Admittanzregelung können explizit Sollkontaktkräfte vorgegeben werden","truth": true}]
+    },
+    {
+      "question": "Frage (5/5): Gegeben sei ein impedanzgeregelter (Matrizen \\(\\boldsymbol{M}\\), \\(\\boldsymbol{D}\\) und \\(\\boldsymbol{K}\\)) Roboter, welcher am Endeffektor einen Schlüssel zum Öffnen eines Türschlosses montiert hat. Vereinfachend wird angenommen, dass beim Einstecken des Schlüssels keine Kräfte in Längsrichtung wirken.",
+      "answers":
+        [{"answer": "In Längsrichtung wirken keine externen Kräfte, sodass die Steifigkeit in diese Richtung auf einen hohen Wert gesetzt werden kann","truth": true},
+        {"answer": "In Längsrichtung wirken keine externen Kräfte, sodass die Steifigkeit in diese Richtung auf einen geringen Wert gesetzt werden kann","truth": false},
+        {"answer": "In radialer Richtung wirken externe Kräfte, sodass die Steifigkeit in diese Richtung auf einen geringen Wert gesetzt werden sollte","truth": true},
+        {"answer": "In radialer Richtung wirken externe Kräfte, sodass die Steifigkeit in diese Richtung auf einen hohen Wert gesetzt werden sollte","truth": false},
+        {"answer": "Drehungen, welche zum Verkanten des Schlüssels im Türschloss führen, sollten mit einer geringen Steifigkeit parametriert werden zur Minimierung der Kontaktkräfte","truth": true}]
+    }
+  ]

@@ -1,0 +1,47 @@
+[
+    {
+      "question": "Frage (1/5): <br> Gegeben seien zwei räumliche Roboter mit unterschiedlicher kinematischer Struktur (Roboter 1: RRP, Roboter 2: RRRRRR). Kreuzen Sie korrekte Aussagen an!",
+      "answers":
+        [{"answer": "Die Minimalkoordinaten beider Roboter haben dieselbe Dimension","truth": false},
+        {"answer": "Ein Roboter mit zwei Kugelgelenken (SS) besitzt dieselbe Anzahl an Freiheitsgraden wie Roboter 2","truth": true},
+        {"answer": "Die Einheit aller Gelenkkoordinaten von Roboter 1 ist rad","truth": false},
+        {"answer": "Ein Roboter mit zwei Kardangelenken (UU) besitzt dieselbe Anzahl an Freiheitsgraden wie Roboter 1","truth": false},
+        {"answer": "Beide Roboter besitzen dieselbe Anzahl an Freiheitsgrade","truth": false}]
+    },
+    {
+      "question": "Frage (2/5): ",
+      "answers":
+        [{"answer": "Für einen ebenen Roboter lässt sich die Lage des Endeffektors mit einem translatorischen und zwei rotatorischen Freiheitsgraden eindeutig beschreiben","truth": false},
+        {"answer": "Die Endeffektorlage eines räumlichen Roboters lässt sich immer mit sechs unabhängigen Freiheitsgraden beschreiben","truth": true},
+        {"answer": "Am Endeffektor wird typischerweise ein ortsfestes Koordinatensystem definiert, da sich dieses mit dem Körper mitbewegt","truth": false},
+        {"answer": "Die Transformation zwischen zwei Koordinatensystemen wird mit der Rotationsmatrix eindeutig beschrieben","truth": false},
+        {"answer": "Die letzte Zeile der homogenen Transformationsmatrix besitzt keinen Informationsgehalt","truth": true}]
+    },
+    {
+      "question": "Frage (3/5): <br> Gegeben seien die Koordinatensysteme \\( \\text{(KS)}_\\text{0} \\) und \\( \\text{(KS)}_\\text{B} \\) sowie Punkt \\( P \\).",
+      "answers":
+        [{"answer": "\\( _\\text{(0)}\\boldsymbol{r}_\\text{P}=_\\text{(0)}\\boldsymbol{r}_\\text{B}+_\\text{(B)}\\boldsymbol{r}_\\text{P} \\)","truth": false},
+        {"answer": "\\( _\\text{(0)}\\boldsymbol{e}_x^\\text{(0)}=_\\text{(0)}\\boldsymbol{e}_x^\\text{(B)} \\)","truth": false},
+        {"answer": "\\( _\\text{(0)}\\boldsymbol{e}_z^\\text{(B)}=_\\text{(0)}\\boldsymbol{e}_x^\\text{(B)}\\times_\\text{(0)}\\boldsymbol{e}_y^\\text{(B)} \\)","truth": true},
+        {"answer": "Das Inertialkoordinatensystem \\( \\text{(KS)}_\\text{0} \\) ist ein Rechts- und das körperfeste Koordinatensystem \\( \\text{(KS)}_\\text{B} \\) ein Linkssystem","truth": false},
+        {"answer": "Die Matrix \\( ^0\\boldsymbol{R}_\\text{B} \\) beschreibt die Lage vom \\( \\text{(KS)}_\\text{B} \\) ausgedrückt im \\( \\text{(KS)}_\\text{0} \\)","truth": false}]
+    },
+    {
+      "question": "Frage (4/5): <br> Gegeben sei die homogene Transformationsmatrix \\( ^0\\boldsymbol{T}_\\mathrm{B} \\) mit Rotation \\( ^0\\boldsymbol{R}_\\mathrm{B} \\) und Translation \\( _\\mathrm{(0)}\\boldsymbol{r}_\\mathrm{B} \\). Kreuzen Sie korrekte Aussagen an!",
+      "answers":
+        [{"answer": "Die ersten drei Spalten von \\( ^0\\boldsymbol{T}_\\mathrm{B} \\) beinhalten Informationen über die Richtungen der Basisvektoren von \\( \\text{(KS)}_\\text{B} \\) ausgedrückt im \\( \\text{(KS)}_\\text{0} \\)","truth": true},
+        {"answer": " \\( (^0\\boldsymbol{T}_\\mathrm{B})^{-1}=^\\mathrm{B}\\boldsymbol{T}_0=(^0\\boldsymbol{T}_\\mathrm{B})^\\mathrm{T} \\)","truth": false},
+        {"answer": " \\( ^0\\boldsymbol{T}_\\mathrm{B} \\) lässt sich eindeutig mit zwölf unterschiedlichen Euler-Winkel Konventionen beschreiben","truth": false},
+        {"answer": "Die Beschreibung von \\( ^0\\boldsymbol{R}_\\mathrm{B} \\) mittels RPY-Winkeln weist keine Gimbal-Lock Problematik auf","truth": true},
+        {"answer": "Die Bewegung von Punkt \\( B \\) mit konstanter Orientierung wird vollständig mit \\( _\\mathrm{(0)}\\boldsymbol{r}_\\mathrm{B} \\) beschrieben","truth": true}]
+    },
+    {
+      "question": "Frage (5/5): ",
+      "answers":
+        [{"answer": "Zusammengesetzte Drehungen und Achse-Winkel-Darstellung sind intiuitive Darstellungen von dreidimensionale Orientierungen","truth": true},
+        {"answer": "Die letzte Zeile der Rotationsmatrix besitzt keinen Informationsgehalt","truth": false},
+        {"answer": "Für einen räumlichen Roboter lässt sich die Lage des Endeffektors mit sechs translatorischen Freiheitsgraden eindeutig beschreiben","truth": false},
+        {"answer": "Die Darstellung einer Orientierung mittels Quaternionen oder Achse-Winkel-Darstellung beschreibt dieselbe Rotationsmatrix mit unterschiedlichem Ansatz","truth": true},
+        {"answer": "Die Rotationsmatrix \\( ^\\mathrm{A}\\boldsymbol{R}_\\mathrm{B} \\) beschreibt die Drehung vom \\( \\text{(KS)}_\\text{B} \\) in das \\( \\text{(KS)}_\\text{A} \\) und repräsentiert den rotatorischen Unterschied der beiden Koordinatensysteme","truth": true}]
+    }
+  ]

@@ -1,0 +1,8 @@
+- Latex Formeln möglich, werden durch MathJax geparst (https://docs.mathjax.org/en/latest/input/tex/index.html)
+  - Formel mit "\\(" öffnen und mit "\\)" abschließen
+  - Latex-Befehle benötigen ebenfalls zusätzlichen backslash damit korrekt geparst (z.B. "\\boldsymbol{}")
+
+- Vorlagen
+  - Vektor:                             _\\text{(0)}\\boldsymbol{r}_\\text{P}
+  - Homogene Transformationsmatrix:     ^0\\boldsymbol{T}_\\mathrm{B}
+  - 

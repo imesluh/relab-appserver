@@ -1,0 +1,22 @@
+gevent == 21.1.2
+greenlet == 1.0.0
+numpy == 1.20.2
+pdbpp == 0.10.3
+Jinja2 == 2.11.3
+Werkzeug == 1.0.1
+markupsafe == 1.1.0
+flask == 1.1.2
+itsdangerous == 1.1.0
+flask-admin == 1.5.7
+apscheduler == 3.7.0
+sqlalchemy == 1.4.7
+flask-uwsgi-websocket == 0.6.1
+Flask-SocketIO == 5.1.1
+opcua == 0.98.13
+pymysql ==1.0.2
+python-dateutil==2.7.3
+python-engineio==4.3.1
+python-socketio==5.5.1
+sphinx == 4.5.0
+sphinx-rtd-theme == 1.2.1
+sphinx-copybutton

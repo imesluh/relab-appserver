@@ -1,0 +1,12 @@
+*.cpython-38.pyc
+*.sock
+*.xml
+*.name
+/app/db_client/
+/app/exchange/
+/app/testbed_communication/
+/.idea/
+/venv/
+*password*.txt
+/docs/_build/
+/GET_IP_CONFIG.sh
