@@ -1,6 +1,7 @@
 """
 Auslesen von Passwörtern aus Textdateien für Python-Anwendungen.
 """
+import subprocess
 def password_sql():
     with open("/var/www/robotiki/password_db.txt") as f:
         lines = f.readlines()
